@@ -1,6 +1,6 @@
 # StudentAdmission
 Student Admission
-Create an application that maintains college admissions for students '
+Create an application that maintains college admissions for students'
 Requirements
 "1. The user should be able to add a new department with the details: department name,"
 "HOD name, allowed admission count."
