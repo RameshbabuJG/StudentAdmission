@@ -6,7 +6,7 @@ const initialState = {
 };
 
 export function studentReducer(state = initialState, action) {
-    debugger
+    
     switch (action.type) {
         case FETCH_ALL:
             return {

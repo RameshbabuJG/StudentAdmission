@@ -15,10 +15,10 @@ import { fetchAll } from "./actions/SudentsActions";
 const App = ({ fetchAll, fetchDepartmentAll }) => {
 
   const dispatch = useDispatch();
-  debugger
+  
    // fetches data from DB
    useEffect(() => {
-     debugger
+     
      fetchAll()
    fetchDepartmentAll()
   }, []);

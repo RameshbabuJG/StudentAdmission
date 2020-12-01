@@ -6,7 +6,7 @@ const initialState = {
 };
 
 export function departmentReducer(state = initialState, action) {
-    debugger
+    
     switch (action.type) {
         case FETCH_DEPARTMENT_ALL:
             return {

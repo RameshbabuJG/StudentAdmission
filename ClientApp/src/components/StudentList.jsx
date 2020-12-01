@@ -64,7 +64,7 @@ function StudentList({ classes, ...props }) {
         }, 1000);
       }
     function supprimer(id) {
-        debugger
+        
         props.deleteStudent(id, () => addToast("Deleted successfully", { appearance: "info" })
         );
         props.fetchAllStudents();

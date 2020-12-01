@@ -29,7 +29,7 @@ function styles(theme) {
 }
 
 function DepartmentForm({ classes, ...props }) {
-    debugger
+    
     const { addToast } = useToasts();
     const initialFieldValues = {
         departmentName: "",

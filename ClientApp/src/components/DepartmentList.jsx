@@ -35,14 +35,14 @@ function styles(theme) {
 
 function DepartmentList({ classes, ...props }) {
 
-    debugger
+    
     const [currentID, setCurrentID] = useState(0);
     const [departmentlist, setDepartmentlist] = useState([]);
     const { addToast } = useToasts();
     const [status, setStatus] = useState(props.status);
     //const isLoad = useSelector(state => state.status);
     useEffect(() => {
-        debugger
+        
         if(!status)
             props.fetchAllDepartment();
         return() => {
@@ -51,7 +51,7 @@ function DepartmentList({ classes, ...props }) {
     }, [props]); //componentDidMount
 
     function supprimer(id) {
-        debugger
+        
         props.deleteDepartment(id, () => addToast("Deleted successfully", { appearance: "info" })
         );
         props.fetchAllDepartment();
@@ -77,7 +77,7 @@ function DepartmentList({ classes, ...props }) {
                             </TableHead>
                             <TableBody>
                                 {props.departmentlist.map((c, i) => {
-                                    debugger
+                                    
                                     return (
                                         <TableRow key={i} hover>
                                             <TableCell>{c.departmentName}</TableCell>

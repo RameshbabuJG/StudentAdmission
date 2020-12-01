@@ -98,7 +98,7 @@ function StudentForm({ classes, ...props }) {
                     studentCount++;
                 }
             });
-            debugger
+            
             if (props.currentID === 0) {
               if(studentCount <= allowedAdmissionCount) {
                 props.createStudent(values, onSuccess);
@@ -169,7 +169,7 @@ function StudentForm({ classes, ...props }) {
                         >
                             <MenuItem value="">Select Department</MenuItem>
                               {props.departmentlist.map((c, i) => {
-                                  debugger
+                                  
                               return (
                       
                             <MenuItem value= {c.departmentName}> {c.departmentName}</MenuItem>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function useForm(initialFieldValues, setCurrentID, validate) {
-debugger
+
     const [values, setValues] = useState(initialFieldValues);
     const [errors, setErrors] = useState({});
 
