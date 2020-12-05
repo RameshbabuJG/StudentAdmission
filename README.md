@@ -1,7 +1,7 @@
 # StudentAdmission
 Student Admission
 
-Create an application that maintains college admissions for students'
+Create an application that maintains college admissions for students - Reactjs with Redux CRUD - WebAPI C#
 
 Requirements
 
